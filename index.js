@@ -56,6 +56,8 @@ app.get("/ports/:postName", function (req, res) {
   });
 });
 
-app.listen(3001, function () {
+const PORT = 3001;
+
+app.listen(PORT, function () {
   console.log("Server started on port 3001");
 });
